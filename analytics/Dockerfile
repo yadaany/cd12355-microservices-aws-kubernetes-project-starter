@@ -1,7 +1,7 @@
 # Use an official Python base image
 FROM python:3.8.0-slim
 
-# Set working directory inside the container to match your app structure
+# Set working directory inside the container to match app structure
 WORKDIR /workspace/analytics
 
 # Install system dependencies required to build PostgreSQL-related packages
